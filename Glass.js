@@ -1,7 +1,7 @@
 class Glass extends BaseClass {
     constructor(x, y){
       super(x,y,50,50);
-      this.image = loadImage("sprites/Glass1.png");
+      this.image = loadImage("sprites/glass1.png");
       this.visibility = 255;
     }
     display(){
