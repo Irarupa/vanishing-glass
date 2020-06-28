@@ -6,7 +6,7 @@ class Glass extends BaseClass {
     }
     display(){
     
-      if (this.body.speed<7) {
+      if (this.body.speed<10) {
           super.display();
       } else {
             World.remove(world,this.body);
